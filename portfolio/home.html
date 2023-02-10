@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Navbar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="homestyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/44f156f516.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="#"><img src="logo.png" alt="logo" height="50px"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#port">Me things</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#contact">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Services</a>
+                <a href="#">Me things</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="home.js"></script>
+        <div class="fbody">
+            <h1>Hiii,I am <span>Birat Giri</span></h1>
+            <p>
+                This is a test protfolio website<br>
+                This should show some of my details ig
+            </p>
+            
+        </div>
+        <div class="col-1">
+       <div class="images">
+        <img src="me.jpg" class="me">
+        </div>
+       </div>
+        </div>
+        <!-- ------------body--------- -->
+        <!--------------- ABOUT ---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="me4.jpg">
+                    </div>
+                    <div class="col-2">
+                        <h1 class="sub_title">About Me</h1>
+                        <p>
+                           Hi...I'm Birat Giri. I'm a dude ig. I like to play games and read books. My favourite game of all time is guilty gear xxrd and my favourite book of all time is rage which i dont recommend to anyone.
+                           I also like to eat chicken wings. 
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Books</span><br>avid book reader</li>
+                                <li><span>Games</span><br>can score 5 on anyone on fifa</li>
+                                <li><span>excel</span><br>can make a calender ig</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Google</span><br>10 years served in google</li>
+                                <li><span>Amazon</span><br>40 years served in amazon</li>
+                                <li><span>leader</span><br>i make the plans</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Middle School</span><br>BKVM</li>
+                                <li><span>High School</span><br>same ig</li>
+                                <li><span>college</span><br>herald ig</li>
+                            </ul>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------SERVICES--------------->
+        <div id="service">
+             <div class="container">
+                <h1 class="sub_title">Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Excel</h2>
+                        <p>i can do basic excel for now</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <h2>powerpoint</h2>
+                        <p>i can do basic powerpoint for now</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>java</h2>
+                        <p>i can do basic java for now</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!-- ---------Portfolio --------------------->
+        <div id="port">
+            <div class="container">
+                <h1 class="sub_title">Me things</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="me3.jpg" alt="basketball"> 
+                        <div class="layer">
+                            <h3>
+                                Basketball
+                            </h3>
+                            <p>
+                                I played basketball ig and was pretty good at it. State level good.
+                            </p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-basketball"></i></a>
+                        </div>   
+                    </div>
+                    <div class="work">
+                        <img src="me5.jpg" alt="">   
+                        <div class="layer">
+                            <h3>
+                               Strung boi
+                            </h3>
+                            <p>
+                                I can hit the highscores in these machines ig.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-hammer"></i></a>
+                        </div>    
+                    </div>
+                    <div class="work">
+                        <img src="me6.jpg" alt="">   
+                        <div class="layer">
+                            <h3>
+                                Fitness
+                            </h3>
+                            <p>
+                               I like being in shape ig.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-dumbbell"></i></i></a>
+                        </div>    
+                    </div>
+                </div>
+                <a href="https://github.com/birat54"class="more"> My github</a>
+            </div>
+        </div>
+        <!---------------- CONTACT ------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub_title">
+                            Contact Me
+                        </h1>
+                        <p>
+                            <i class="fa-sharp fa-solid fa-envelope"></i>birat54giri@gmail.com
+                        </p>
+                        <p><i class="fa-solid fa-phone-volume"></i></i>9864831481</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/biratggg?igshid=ZmZhODViOGI="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/birat-giri-7b228025a/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Quandanle Dingle" required>
+                            <input type="email" name="email" placeholder="Dingle@gmail.com" required>
+                            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="more2">
+                                submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-copyright"></i>copyright@2022</p>
+            </div>
+        </div>
+       <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+       </script>
+    </body>
+</html>
